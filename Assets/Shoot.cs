@@ -32,7 +32,17 @@ public class Shoot : MonoBehaviour
         // stuff after the delay
         canShoot = true;
 
+
     }
+
+    //IEnumerator SpawnWave()
+    //{
+    //    for (int i = 0; i < 5; i++)
+    //    {
+    //        Instantiate(bulletPrefab);
+    //        yield return new WaitForSeconds(1);
+    //    }
+    //}
 
 
 }
